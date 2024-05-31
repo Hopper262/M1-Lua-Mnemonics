@@ -1,0 +1,11 @@
+M1 Lua Mnemonics version 1.0
+by Hopper
+
+If you've tried writing Lua for the Marathon scenario in Aleph One 1.1, you'll notice that many of the type mnemonics are incorrect. Bungie moved a lot of things around between M1 and M2, so the number-to-string mappings hardcoded in Aleph One do not apply to the original Marathon data.
+
+This script updates the mnemonics to match Marathon's use. Some new names are added, to match M1-only monsters like the Looker, but the same names or naming patterns are used where possible. Items not present in Marathon are renamed to "unused XX", where XX is the numeric index. If you adapt existing scripts for Marathon, you may need to watch out for missing mnemonics.
+
+As of Aleph One 1.1, not all Lua functionality has been updated for use with Marathon. Notably, sounds worked very differently in the original Marathon engine, and the sound mnemonics cannot be mapped due to those differences.
+
+If you have any questions, comments or bugs to report, you can email me:
+- hopper@whpress.com
